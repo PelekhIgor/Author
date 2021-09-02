@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.woff2') format('woff2'),
+    url('../fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    display: block;
+    width: 100%;
+}
+.navbar-default{
+    background-color: white;
+    border-color: white;
+    background-image: none;
+}
+.navbar {
+
+    margin-bottom: 0;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.navbar-right{
+    padding-top: 8px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #484c55;
+    transition: 0.5s;
+    font-size: 15px;
+    font-family: 'Open Sans';
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #49cbcd;
+}
+
+.navbar-default .navbar-nav>li:hover:after{
+    background-color: #49cbcd;
+
+}
+.navbar-default .navbar-nav>li:after {
+    content: "";
+    width: 85px;
+    display: block;
+    height: 3px;
+    position: relative;
+    bottom: -7px;
+    transition: 0.5s; }
+
+.navbar-default .navbar-nav>li:hover:before{
+    background-color: #f8f9fb;
+
+}
+
+.navbar-default .navbar-nav>li:before{
+    content: "";
+    width: 85px;
+    height: 150px;
+    display: block;
+    bottom: -20px;
+    position: absolute;
+    transition: 0.5s;
+}
+.by_team{
+    background-color: #eeeef0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.by_team:after{
+    content:"+";
+    font-size: 60px;
+    color: red;
+    display: block;
+    position: absolute;
+    top: -60px;
+    left: 85px;
+    z-index: 2;
+    transition: 0.5s;
+
+}
+.by_team:hover:after{
+    top: 60px;
+    left: 85px;
+    transform: rotate(360deg);
+}
+.by_team img{
+    display: block;
+    width: 100%;
+}
+.carousel-caption{
+    padding-bottom: 145px;
+}
+.text_h3{
+    color: #ffffff;
+    font-size: 63px;
+  padding-bottom: 30px;
+    font-family: 'Open Sans';
+}
+.text_p{
+    color: #ffffff;
+    font-size: 23px;
+    padding-bottom:40px;
+    font-family: 'Open Sans';
+    line-height: 30px;
+}
+.text_a{
+    color: #ffffff!important;
+    font-size: 26px;
+    border: white solid 3px;
+    padding: 15px 30px;
+    font-family: 'Open Sans';
+    text-decoration: none !important;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.text_a:hover{
+    background-color: #9b8a78;
+}
+.glyphicon-chevron-right:before {
+
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: block;
+    font-size: 25px;
+    line-height: 45px;
+    color: transparent;
+    background-color: white;
+    font-weight: lighter;
+}
+.glyphicon-chevron-left:before {
+
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: block;
+    font-size: 25px;
+    line-height: 45px;
+    color: transparent;
+    background-color: white;
+    font-weight: lighter;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.container.marketing{
+padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.team{
+    font-family: 'Open Sans';
+    font-size: 42px;
+    color: #4e525d;
+    margin-bottom: 140px;
+}
+.information h3{
+color: #5a5e68;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+}
+.information h4{
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    color: #4e525d;
+    font-size: 17px;
+}
+
+.information p{
+
+    font-family: 'Open Sans';
+    color: #4e525d;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-left: 0;
+    color: #8c9299;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    background-color: #f8f9fb;
+    text-align: center;
+
+}
+
+.list ul li{
+    padding: 18px 0 18px;
+    background-color: white;
+    margin-bottom: 2px;
+}
+.bg_list{
+    background-color: #f1f1f1;
+}
+.bg_list .container{
+    padding: 115px 0 100px;
+}
+.list ul li:first-of-type{
+    color: white;
+    background-color: #485460;
+    font-size: 26px;
+    padding: 30px 0 30px;
+    transition: 0.5s;
+}
+.list ul li:hover:first-of-type{
+    background-color: #49cbcd;
+}
+
+.list ul li:nth-child(2){
+    color: #485460;
+    background-color: inherit;
+    font-size: 20px;
+    padding: 25px 0 25px;
+}
+
+.list ul li:last-of-type{
+    padding: 30px 0 30px;
+    background-color: inherit;
+
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 50px;
+    background-color: #788492;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    transition: 0.5s;
+}
+.list ul li a:hover{
+    background-color: #49cbcd;
+}
+
+.container-fluid.bg{
+    background-image:url('../img/bg_1.png');
+    display: block;
+    width: 100%;
+    background-size: cover ;
+
+}
+
+.form h3{
+    text-align: center;
+    color: white;
+    margin: 100px 0;
+    font-family: 'Open Sans';
+    font-size: 42px;
+}
+.soc_icon{
+    margin: 40px 0 25px;
+}
+.soc_icon .btn_soc:first-of-type{
+    background-color: #3b5997;
+}
+.soc_icon .btn_soc:last-of-type{
+    background-color: #e44c41;
+}
+.soc_icon .btn_soc{
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #3ec2f3;
+    transition: 0.5s cubic-bezier(0, 0, 1, -0.92);
+
+}
+.soc_icon .btn_soc:hover{
+    transform: translatey(-20%) scale(1.2);
+}
+.soc_icon .btn_soc i{
+    color: #ffffff ;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.form_text h4{
+    color: white;
+    font-size: 27px;
+    font-family: 'Open Sans';
+}
+.form_text p{
+    color: #bface2;
+    font-size: 15px;
+    font-family: 'Open Sans';
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.text{
+    width: 100%;
+    height: 45px;
+
+}
+.email{
+    width: 100%;
+    height: 45px;
+}
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 180px!important;
+}
+.send{
+    font-size: 22px;
+    font-family: 'Open Sans';
+margin-bottom: 100px;
+}
